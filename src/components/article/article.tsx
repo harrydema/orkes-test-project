@@ -9,6 +9,8 @@ const Article: FC<{ article: ArticleModel }> = ({ article }) => {
   const text = useMemo(() => {
     if (article.title.length > 50) {
       return `${article.title.substring(0, 50)}...`;
+    } else {
+      return article.title;
     }
   }, [article.title]);
   return (
