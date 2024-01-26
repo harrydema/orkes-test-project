@@ -51,7 +51,7 @@ const Article: FC<{ article: ArticleModel }> = ({ article }) => {
           variant="body2"
           color="text.secondary"
         >
-          {moment(article.last_update).format("MMM DD, YYYY hh:mm:ss A")}
+          {moment.unix(article.last_update).format("MMM DD, YYYY hh:mm:ss A")}
         </Typography>
       </CardContent>
     </Card>
