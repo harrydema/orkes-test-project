@@ -24,7 +24,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         >
           <Box
             sx={{
-              maxWidth: 460,
+              maxWidth: 430,
               margin: "0 auto",
               background: MuiTheme.palette.background.paper,
               borderLeft: "1px solid #CCC",
