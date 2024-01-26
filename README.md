@@ -6,9 +6,9 @@ The primary objective of this project is to serve as a testing ground for variou
 
 ## Getting Started
 
-1. To get started with orkes-test-project, follow these steps:
+To get started with orkes-test-project, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone git@github.com:harrydema/orkes-test-project.git
