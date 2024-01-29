@@ -1,12 +1,12 @@
 "use client";
-
-import Article, { ArticleSkeleton } from "@/components/article";
-import Error from "@/components/error";
-import ArticlesMachine from "@/machines/articles";
 import { Box, Button } from "@mui/material";
 import { useMachine } from "@xstate/react";
 import { useCallback } from "react";
-import { useBottomScrollListener } from "react-bottom-scroll-listener";
+
+import Article, { ArticleSkeleton } from "@/components/article";
+import ArticlesMachine from "@/machines/articles";
+import Error from "@/components/error";
+import { useBottomScrollListener } from "@/hooks/useBottomScrollListener";
 
 export default function Home() {
   const [state, send] = useMachine(ArticlesMachine);
